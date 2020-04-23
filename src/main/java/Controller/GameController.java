@@ -90,4 +90,3 @@ public abstract class GameController {
      */
     public abstract int getLastComputerYCoordinate();
 }
-
