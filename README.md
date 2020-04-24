@@ -24,7 +24,7 @@ Denne oppgaven teller på din endelige vurdering i faget. Maks poeng er 100. Du 
 
 # Fyll inn egne svar/beskrivelse/kommentarer til prosjektet under
 * Levert av:   *NAVN* (*BRUKERNAVN*)
-* [ ] hele semesteroppgaven er ferdig og klar til retting!
+* [X] hele semesteroppgaven er ferdig og klar til retting!
 * Sjekkliste:
    * [x] Kjørbart Fire på Rad-spill
 	   * [X] Funksjonelt spill 
@@ -34,8 +34,8 @@ Denne oppgaven teller på din endelige vurdering i faget. Maks poeng er 100. Du 
 	   * [X] Funksjonelt spill 
 	   * [X] Fungerende user interface
 	   * [X] Støtter AI 
-   * [ ] Forklart designvalg, hvordan koden er organisert, abstraksjon, og andre ting 
-   * [ ] Tester
+   * [X] Forklart designvalg, hvordan koden er organisert, abstraksjon, og andre ting 
+   * [X] Tester
    * [X] Dokumentasjon (JavaDoc, kommentarer, diagrammer, README, etc.)
    * [X] Fornuftige navn på klasser, interfaces, metoder og variabler
    * [X] Fornuftige abstraksjoner og innkapsling (bruk av klasser, interface, metoder, etc.)
@@ -55,7 +55,7 @@ Når du vinner skjer: `Går gjennom Controller, og sjekker om det er en vinner o
 
 ## Designvalg
 *I denne oppgaven, valgte jeg å bruke MVC Design Pattern. Der jeg bruker tre main filer, "Controller", "Model" og "View".
- Controller er der input og ouput skjer, og der logikken til spillet ligger. 
+ Controller er der input og ouput skjer, og der "logikken" til spillet ligger. 
  "Model" tar imot data som er relevant for spillet, og updater filen "View" som "user" ser. 
 
 ### Bruk av abstraksjon
@@ -88,7 +88,7 @@ virker ikke: Hvordan man vinner på Four in a row, ser ut som ikke å fungerere,
 
 
 ## Annet
-*Skulle ha kodet litt bedre, kunne ha funnet en metode for å vite hvordan man vinner diagonalt på fire på da, *
+*Skulle ha kodet litt bedre, kunne ha funnet en metode for å vite hvordan man vinner diagonalt på fire på da *
 
 
 Diagram: https://i.imgur.com/H59unVq.png
