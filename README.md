@@ -67,9 +67,12 @@ Fra der overrrider jeg alle abstraksjonene i Tic og 4InRow. Etter at logikken f�
 
 ### Erfaring – hvilke valg viste seg å være gode / dårlige?
 *Kom ikke på hvordan jeg skulle kode en god kode for å sjekke hvordan man vant på tic tac toe, om du ser på method checkForVictory, ser man at det er ganske dårlig kode, der jeg repeterer meg hele tiden.
-  Prøvde meg på en annen metode på FourInRow der jeg forlooper for å sjekke om det er 4 på rad, men den får kun sjekket i en Row og ikke diagonalt. 
+ Prøvde meg på en annen metode på FourInRow der jeg forlooper for å sjekke om det er 4 på rad, men den får kun sjekket i en Row og ikke diagonalt.
+ Burde kanskje ha brukt Enums litt anderledes, men tanken bak den var at vi fikk en "menu" som vi fikk vite. 
+  Mer enn det er jeg ganske fornøyd hvordan jeg besvarte oppgaven, har en ganske ryddig kode med organisert mappe fordeling, en klar design pattern som jeg bruker.
   
-  Mer enn det er jeg ganske fornøyd hvordan jeg besvarte oppgaven, *
+    
+    *
 
 ## Testing
 Har laget to test filer for både TicTacToe og FourInRow, der jeg sjekker om informasjonen stemmer overens med det som står i GameModel og Map. Har en objekt "g" som peker mot tic/4InRow, som extender fra GameController, og som sjekker om informasjonenen stemmer. 
@@ -79,14 +82,13 @@ Har laget to test filer for både TicTacToe og FourInRow, der jeg sjekker om inf
 
 ## Funksjonalitet, bugs
 *(hva virker: Nesten alt sammen fungerer
- 
 virker ikke: Hvordan man vinner på Four in a row, ser ut som ikke å fungerere, har prøvd å implementere hvordan man vinner diagonalt,
  men får det fortsatt ikke til å fungere.
 
 
 
 ## Annet
-*(er det noe du ville gjort annerledes?)*
+*Skulle ha kodet litt bedre, kunne ha funnet en metode for å vite hvordan man vinner diagonalt på fire på da, *
 
 
 Diagram: https://i.imgur.com/H59unVq.png
