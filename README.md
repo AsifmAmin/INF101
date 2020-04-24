@@ -29,14 +29,14 @@ Denne oppgaven teller på din endelige vurdering i faget. Maks poeng er 100. Du 
    * [ ] jeg har fått tilbakemelding underveis fra @brukernavn, ...
    * [ ] jeg har gitt tilbakemelding underveis til @brukernavn, ...
 * Sjekkliste:
-   * [ ] Kjørbart Fire på Rad-spill
-	   * [ ] Funksjonelt spill 
-	   * [ ] Fungerende user interface
-	   * [ ] Støtter AI 
-   * [ ] Kjørbart Tripp-trapp-tresko-spill
-	   * [ ] Funksjonelt spill 
-	   * [ ] Fungerende user interface
-	   * [ ] Støtter AI 
+   * [x] Kjørbart Fire på Rad-spill
+	   * [X] Funksjonelt spill 
+	   * [x] Fungerende user interface
+	   * [x] Støtter AI 
+   * [X] Kjørbart Tripp-trapp-tresko-spill
+	   * [X] Funksjonelt spill 
+	   * [X] Fungerende user interface
+	   * [X] Støtter AI 
    * [ ] Forklart designvalg, hvordan koden er organisert, abstraksjon, og andre ting 
    * [ ] Tester
    * [ ] Dokumentasjon (JavaDoc, kommentarer, diagrammer, README, etc.)
@@ -53,7 +53,7 @@ For å starte programmet kjør: `fyll.inn.her`
 (...etc...)   
 
 ## Designvalg
-*(hvordan du har valgt å løse oppgaven)*
+**
 
 ### Bruk av abstraksjon
 *(hvordan du har valgt objekter/klasser for å representere ting i spillet)*
@@ -62,7 +62,9 @@ For å starte programmet kjør: `fyll.inn.her`
 *(designerfaringer – er det noe du ville gjort annerledes?)*
 
 ## Testing
-*(hvordan du har testet ting)*
+*(hvordan du har testet ting)
+Sjekker om alle påstandene jeg har gitt er sant, ved å sette .assertTrue, 
+*
 
 ## Funksjonalitet, bugs
 *(hva virker / virker ikke)*
