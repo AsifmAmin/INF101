@@ -44,12 +44,9 @@ Denne oppgaven teller på din endelige vurdering i faget. Maks poeng er 100. Du 
    * [ ] Fornuftige abstraksjoner og innkapsling (bruk av klasser, interface, metoder, etc.)
 
 ## Oversikt
-*(oversikt over koden din og det du har gjort)*
-
 Har lagt til alle abstraksjonene i GameController, der FourInRowController,  TicTacToeController  og InputOutputController implementerer disse.
 I Model mappen finner vi 3 singleton klasser filer, GameModel tar imot informasjon relatert til spillet, Map har karttilstand hele tiden
-og Player holder informasjon til spilleren, blant annet bevegelser. Har to Enums filer, som har navnet GameName og GameType, ser at det kanskje ikke er det beste veien å bruke Enums,
- men baktanken var at vi visste hva som skulle være med på spillet allerede. 
+og Player holder informasjon til spilleren, blant annet bevegelser. Har to Enums filer, som har navnet GameName og GameType. 
 Har også laget to interfaces som heter Input og Output, der  InputOutputController bruker disse Interfacene som få regristere det brukeren trykker. Eneste brukeren kommer til å se 
 er View filen, som kommuniserer InputOutPutController, for å se hva den skal vise til bruker som spiller. 
 
@@ -74,7 +71,7 @@ Jeg satte alle abstrakjonene i en klasse, "GameController" Der ligger alle abstr
 *
 
 ### Erfaring – hvilke valg viste seg å være gode / dårlige?
-*(designerfaringer – er det noe du ville gjort annerledes?)*
+*Kom ikke på hvordan jeg skulle kode en god kode for å sjekke hvordan man vant på tic tac toe, om du ser på method checkForVictory, ser man at det er ganske dårlig kode, der jeg repeterer meg hele tiden,  *
 
 ## Testing
 *(hvordan du har testet ting) 
