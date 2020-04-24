@@ -79,9 +79,10 @@ Fra der overrrider jeg alle abstraksjonene i Tic og 4InRow. Etter at logikken f�
 Har laget to test filer for både TicTacToe og FourInRow, der jeg sjekker om informasjonen stemmer overens med det som står i GameModel og Map. Har en objekt "g" som peker mot tic/4InRow, som extender fra GameController, og som sjekker om informasjonenen stemmer. 
  
 ## Funksjonalitet, bugs
-*(hva virker: Nesten alt sammen fungerer
+hva virker: Nesten alt sammen fungerer. 
+
 virker ikke: Hvordan man vinner på Four in a row, ser ut som ikke å fungerere, har prøvd å implementere hvordan man vinner diagonalt,
- men får det fortsatt ikke til å fungere.
+ men får det fortsatt ikke til å fungere. Fikk en del feil på starten på hvordan jeg skulle lagre informasjonen i en klasse, men ble overbevist å bruke singleton classes for å ha mer struktur. 
 
 
 
