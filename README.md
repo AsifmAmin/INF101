@@ -46,8 +46,13 @@ Denne oppgaven teller på din endelige vurdering i faget. Maks poeng er 100. Du 
 ## Oversikt
 *(oversikt over koden din og det du har gjort)*
 
-Har lagt til alle abstraksjonene i GameController, der FourInRowController,  TicTacToeController  og InputOutputController implementerer disse. 
-Har også laget to interfaces som heter Input og Output, der  
+Har lagt til alle abstraksjonene i GameController, der FourInRowController,  TicTacToeController  og InputOutputController implementerer disse.
+I Model mappen finner vi 3 singleton klasser filer, GameModel tar imot informasjon relatert til spillet, Map har karttilstand hele tiden
+og Player holder informasjon til spilleren, blant annet bevegelser. Har to Enums filer, som har navnet GameName og GameType, ser at det kanskje ikke er det beste veien å bruke Enums,
+ men baktanken var at vi visste hva som skulle være med på spillet allerede. 
+Har også laget to interfaces som heter Input og Output, der  InputOutputController bruker disse Interfacene som få regristere det brukeren trykker. Eneste brukeren kommer til å se 
+er View filen, som kommuniserer InputOutPutController, for å se hva den skal vise til bruker som spiller. 
+
 
 
 
