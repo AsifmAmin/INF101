@@ -86,7 +86,9 @@ virker ikke: Hvordan man vinner på Four in a row, ser ut som ikke å fungerere,
 
 
 ## Annet
-*Skulle ha kodet litt bedre, kunne ha funnet en metode for å vite hvordan man vinner diagonalt på fire på da *
+*Skulle ha kodet litt bedre, kunne ha funnet en metode for å vite hvordan man vinner diagonalt på fire på da. 
+
+Burde ogsåha brukt litt mer tid på gjøre Read.md *
 
 
 Diagram: https://i.imgur.com/H59unVq.png
