@@ -8,6 +8,7 @@ import Model.GameModel;
 import View.View;
 
 public class InputOutputController implements Input {
+
     GameController g;
 
     /**

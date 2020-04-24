@@ -25,9 +25,6 @@ Denne oppgaven teller på din endelige vurdering i faget. Maks poeng er 100. Du 
 # Fyll inn egne svar/beskrivelse/kommentarer til prosjektet under
 * Levert av:   *NAVN* (*BRUKERNAVN*)
 * [ ] hele semesteroppgaven er ferdig og klar til retting!
-* Code review:
-   * [ ] jeg har fått tilbakemelding underveis fra @brukernavn, ...
-   * [ ] jeg har gitt tilbakemelding underveis til @brukernavn, ...
 * Sjekkliste:
    * [x] Kjørbart Fire på Rad-spill
 	   * [X] Funksjonelt spill 
@@ -39,9 +36,9 @@ Denne oppgaven teller på din endelige vurdering i faget. Maks poeng er 100. Du 
 	   * [X] Støtter AI 
    * [ ] Forklart designvalg, hvordan koden er organisert, abstraksjon, og andre ting 
    * [ ] Tester
-   * [ ] Dokumentasjon (JavaDoc, kommentarer, diagrammer, README, etc.)
-   * [ ] Fornuftige navn på klasser, interfaces, metoder og variabler
-   * [ ] Fornuftige abstraksjoner og innkapsling (bruk av klasser, interface, metoder, etc.)
+   * [X] Dokumentasjon (JavaDoc, kommentarer, diagrammer, README, etc.)
+   * [X] Fornuftige navn på klasser, interfaces, metoder og variabler
+   * [X] Fornuftige abstraksjoner og innkapsling (bruk av klasser, interface, metoder, etc.)
 
 ## Oversikt
 Har lagt til alle abstraksjonene i GameController, der FourInRowController,  TicTacToeController  og InputOutputController implementerer disse.
@@ -49,10 +46,6 @@ I Model mappen finner vi 3 singleton klasser filer, GameModel tar imot informasj
 og Player holder informasjon til spilleren, blant annet bevegelser. Har to Enums filer, som har navnet GameName og GameType. 
 Har også laget to interfaces som heter Input og Output, der  InputOutputController bruker disse Interfacene som få regristere det brukeren trykker. Eneste brukeren kommer til å se 
 er View filen, som kommuniserer InputOutPutController, for å se hva den skal vise til bruker som spiller. 
-
-
-
-
 
 ### Bruk
 For å starte programmet kjør: `fyll.inn.her`  
@@ -67,26 +60,30 @@ Når du vinner skjer: `Går gjennom Controller, og sjekker om det er en vinner o
 
 ### Bruk av abstraksjon
 *(hvordan du har valgt objekter/klasser for å representere ting i spillet)
-Jeg satte alle abstrakjonene i en klasse, "GameController" Der ligger alle abstraksjonene til spillene til tic tac toe og 4 in row. 
+Jeg satte alle abstrakjonene i en klasse, "GameController" 
+Der ligger alle abstraksjonene til spillene til tic tac toe og 4 in row.
+Fra der overrrider jeg alle abstraksjonene i Tic og 4InRow. Etter at logikken får kjørt seg retunerer de svarene tilbake til GameModel som holder på informasjonen.  
 *
 
 ### Erfaring – hvilke valg viste seg å være gode / dårlige?
-*Kom ikke på hvordan jeg skulle kode en god kode for å sjekke hvordan man vant på tic tac toe, om du ser på method checkForVictory, ser man at det er ganske dårlig kode, der jeg repeterer meg hele tiden,  *
+*Kom ikke på hvordan jeg skulle kode en god kode for å sjekke hvordan man vant på tic tac toe, om du ser på method checkForVictory, ser man at det er ganske dårlig kode, der jeg repeterer meg hele tiden.
+  Prøvde meg på en annen metode på FourInRow der jeg forlooper for å sjekke om det er 4 på rad, men den får kun sjekket i en Row og ikke diagonalt. 
+  
+  Mer enn det er jeg ganske fornøyd hvordan jeg besvarte oppgaven, *
 
 ## Testing
-*(hvordan du har testet ting) 
+Har laget to test filer for både TicTacToe og FourInRow, der jeg sjekker om informasjonen stemmer overens med det som står i GameModel og Map. Har en objekt "g" som peker mot tic/4InRow, som extender fra GameController, og som sjekker om informasjonenen stemmer. 
+ 
 
-Jeg sjekker gjennom ved å sjekke om alle statementene er true, der package Map og GameModel innholder alt av data, kan jeg sjekke om det stemmer overens med
-Controllene, 
-*
+
 
 ## Funksjonalitet, bugs
-*(hva virker: Nesten alt sammen fungerer.
+*(hva virker: Nesten alt sammen fungerer
  
- virker ikke: Hvordan man vinner på Four in a row, ser ut som ikke å fungerere, har prøvd å implementere hvordan man vinner diagonalt, men får det fortsatt ikke til å fungere.
+virker ikke: Hvordan man vinner på Four in a row, ser ut som ikke å fungerere, har prøvd å implementere hvordan man vinner diagonalt,
+ men får det fortsatt ikke til å fungere.
 
-## Evt. erfaring fra code review
-*(lærte du noe av å gå gjennom din eller andres kode?)*
+
 
 ## Annet
 *(er det noe du ville gjort annerledes?)*
