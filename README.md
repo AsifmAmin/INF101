@@ -46,6 +46,10 @@ Denne oppgaven teller på din endelige vurdering i faget. Maks poeng er 100. Du 
 ## Oversikt
 *(oversikt over koden din og det du har gjort)*
 
+Har lagt til alle abstraksjonene i GameController, der FourInRowController,  TicTacToeController  og InputOutputController implementerer disse. 
+Har også laget to interfaces som heter Input og Output, der  
+
+
 
 
 ### Bruk
@@ -75,9 +79,9 @@ Controllene,
 *
 
 ## Funksjonalitet, bugs
-*(hva virker: Ser ut som nesten alt sammen fungerer, bortsett fra hvordan man vinner på 4 in a row.
+*(hva virker: Nesten alt sammen fungerer.
  
- virker ikke:*
+ virker ikke: Hvordan man vinner på Four in a row, ser ut som ikke å fungerere, har prøvd å implementere hvordan man vinner diagonalt, men får det fortsatt ikke til å fungere.
 
 ## Evt. erfaring fra code review
 *(lærte du noe av å gå gjennom din eller andres kode?)*
