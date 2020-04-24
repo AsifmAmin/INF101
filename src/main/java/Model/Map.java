@@ -1,7 +1,6 @@
 package Model;
 
 public class Map {
-
     private static Map single_instance = null;
 
     public static Map getInstance(){

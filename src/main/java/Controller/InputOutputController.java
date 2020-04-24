@@ -56,10 +56,10 @@ public class InputOutputController implements Input {
             }
             else
                 g = new FourInRowController();
-            if(g.checkIfMoveValid(moveX, moveY)){
+            if(g.checkIfMoveValid(moveY, moveX)){
                 //coordinates are valid
-                g.addPlayerTwoMovement(moveX, moveY);
-                g.setMovementOnMap(moveX, moveY);
+                g.addPlayerTwoMovement(moveY, moveX);
+                g.setMovementOnMap(moveY, moveX);
                 //check if movement is victorious
                 if(g.checkForVictory()){
                     Output o = new View();
@@ -112,9 +112,9 @@ public class InputOutputController implements Input {
                 g = new TicTacToeController();
             else
                 g = new FourInRowController();
-            if(g.checkIfMoveValid(moveX, moveY)){
-                g.addPlayerOneMovement(moveX, moveY);
-                g.setMovementOnMap(moveX, moveY);
+            if(g.checkIfMoveValid(moveY, moveX)){
+                g.addPlayerOneMovement(moveY, moveX);
+                g.setMovementOnMap(moveY, moveX);
                 if(g.checkForVictory()){
                     Output o = new View();
                     o.doOutput(g.getVictoryPlayerName(), "WINNERFOUND");

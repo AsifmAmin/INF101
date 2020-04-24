@@ -46,31 +46,44 @@ Denne oppgaven teller på din endelige vurdering i faget. Maks poeng er 100. Du 
 ## Oversikt
 *(oversikt over koden din og det du har gjort)*
 
+
+
 ### Bruk
 For å starte programmet kjør: `fyll.inn.her`  
-(...for å legge ut en brikke må du...)   
-(...når du vinner skjer...)   
+For å legge ut en brikke må du: `Skriv x og y kordinater, eks 3,2`   
+Når du vinner skjer: `Går gjennom Controller, og sjekker om det er en vinner og printer det ut  `
 (...etc...)   
 
 ## Designvalg
-**
+*I denne oppgaven, valgte jeg å bruke MVC Design Pattern. Der jeg bruker tre main filer, "Controller", "Model" og "View".
+ Controller er der input og ouput skjer, og der logikken til spillet ligger. 
+ "Model" tar imot data som er relevant for spillet, og updater filen "View" som "user" ser. 
 
 ### Bruk av abstraksjon
-*(hvordan du har valgt objekter/klasser for å representere ting i spillet)*
+*(hvordan du har valgt objekter/klasser for å representere ting i spillet)
+Jeg satte alle abstrakjonene i en klasse, "GameController" Der ligger alle abstraksjonene til spillene til tic tac toe og 4 in row. 
+*
 
 ### Erfaring – hvilke valg viste seg å være gode / dårlige?
 *(designerfaringer – er det noe du ville gjort annerledes?)*
 
 ## Testing
-*(hvordan du har testet ting)
-Sjekker om alle påstandene jeg har gitt er sant, ved å sette .assertTrue, 
+*(hvordan du har testet ting) 
+
+Jeg sjekker gjennom ved å sjekke om alle statementene er true, der package Map og GameModel innholder alt av data, kan jeg sjekke om det stemmer overens med
+Controllene, 
 *
 
 ## Funksjonalitet, bugs
-*(hva virker / virker ikke)*
+*(hva virker: Ser ut som nesten alt sammen fungerer, bortsett fra hvordan man vinner på 4 in a row.
+ 
+ virker ikke:*
 
 ## Evt. erfaring fra code review
 *(lærte du noe av å gå gjennom din eller andres kode?)*
 
 ## Annet
 *(er det noe du ville gjort annerledes?)*
+
+
+Diagram: https://i.imgur.com/H59unVq.png

@@ -182,7 +182,7 @@ public class FourInRowController extends GameController {
      * @param y
      */
     @Override
-    public void setMovementOnMap(int x, int y){
+    public void setMovementOnMap(int y, int x){
         if(GameModel.getInstance().player1.playerTurn == true){
             if(y == 6)
                 Map.getInstance().map[x-1][y-1] = "| x |\n";
@@ -230,7 +230,7 @@ public class FourInRowController extends GameController {
      * @param y
      */
     @Override
-    public void addPlayerOneMovement(int x, int y) {
+    public void addPlayerOneMovement(int y, int x) {
         GameModel.getInstance().player1.movesX.add(x);
         GameModel.getInstance().player1.movesY.add(y);
     }
@@ -241,7 +241,7 @@ public class FourInRowController extends GameController {
      * @param y
      */
     @Override
-    public void addPlayerTwoMovement(int x, int y) {
+    public void addPlayerTwoMovement(int y, int x) {
         GameModel.getInstance().player2.movesX.add(x);
         GameModel.getInstance().player2.movesY.add(y);
     }
@@ -253,7 +253,7 @@ public class FourInRowController extends GameController {
      * @return boolean
      */
     @Override
-    public boolean checkIfMoveValid(int x, int y) {
+    public boolean checkIfMoveValid(int y, int x) {
         //checking if move is valid. If input is less than 1 or more than 7 for row and 6 for column, then the move is invalid.
         if(x < 1 || x > 7 || y < 1 || y > 6)
             return false;
