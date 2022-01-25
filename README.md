@@ -93,3 +93,10 @@ Burde ogsåha brukt litt mer tid på gjøre Read.md *
 
 
 Diagram: https://i.imgur.com/H59unVq.png
+
+## Tilbakemelding
+
+Du har god dokumentasjon i README og koden. Bra at du bruker Javadoc, men savner forklaring på variablene i funksjonene (@param output ...)
+Bra at du dokuemterer ting som ikke fungere også.
+Supert at du har lagd tester for begge Controller'ene.
+Selv om MVC ikke akkurat er det man lærer i INF101, synes jeg du har organisert koden veldig godt.
