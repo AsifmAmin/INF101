@@ -13,23 +13,8 @@ Du har god dokumentasjon i README og koden. Bra at du bruker Javadoc, men savner
 Bra at du dokuemterer ting som ikke fungere også.
 Supert at du har lagd tester for begge Controller'ene.
 Selv om MVC ikke akkurat er det man lærer i INF101, synes jeg du har organisert koden veldig godt.
-# Fyll inn egne svar/beskrivelse/kommentarer til prosjektet under
-* Levert av:   *NAVN* (*BRUKERNAVN*)
-* [X] hele semesteroppgaven er ferdig og klar til retting!
-* Sjekkliste:
-   * [x] Kjørbart Fire på Rad-spill
-	   * [X] Funksjonelt spill 
-	   * [x] Fungerende user interface
-	   * [x] Støtter AI 
-   * [X] Kjørbart Tripp-trapp-tresko-spill
-	   * [X] Funksjonelt spill 
-	   * [X] Fungerende user interface
-	   * [X] Støtter AI 
-   * [X] Forklart designvalg, hvordan koden er organisert, abstraksjon, og andre ting 
-   * [X] Tester
-   * [X] Dokumentasjon (JavaDoc, kommentarer, diagrammer, README, etc.)
-   * [X] Fornuftige navn på klasser, interfaces, metoder og variabler
-   * [X] Fornuftige abstraksjoner og innkapsling (bruk av klasser, interface, metoder, etc.)
+
+
 
 ## Oversikt
 Har lagt til alle abstraksjonene i GameController, der FourInRowController,  TicTacToeController  og InputOutputController implementerer disse.
@@ -62,8 +47,7 @@ Fra der overrrider jeg alle abstraksjonene i Tic og 4InRow. Etter at logikken f�
  Prøvde meg på en annen metode på FourInRow der jeg forlooper for å sjekke om det er 4 på rad, men den får kun sjekket i en Row og ikke diagonalt.
  Burde kanskje ha brukt Enums litt anderledes, men tanken bak den var at vi fikk en "menu" som vi fikk vite. 
   Mer enn det er jeg ganske fornøyd hvordan jeg besvarte oppgaven, har en ganske ryddig kode med organisert mappe fordeling, en klar design pattern som jeg bruker.  
-  
-    
+
     *
 
 ## Testing
@@ -75,12 +59,6 @@ hva virker: Nesten alt sammen fungerer.
 virker ikke: Hvordan man vinner på Four in a row, ser ut som ikke å fungerere, har prøvd å implementere hvordan man vinner diagonalt,
  men får det fortsatt ikke til å fungere. Fikk en del feil på starten på hvordan jeg skulle lagre informasjonen i en klasse, men ble overbevist å bruke singleton classes for å ha mer struktur. 
 
-
-
-## Annet
-*Skulle ha kodet litt bedre, kunne ha funnet en metode for å vite hvordan man vinner diagonalt på fire på da. 
-
-Burde ogsåha brukt litt mer tid på gjøre Read.md *
 
 
 Diagram: https://i.imgur.com/H59unVq.png
